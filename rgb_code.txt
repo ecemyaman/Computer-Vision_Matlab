@@ -1,0 +1,23 @@
+>> l1= imread ('C:\Users\ECEM\Desktop\1.jpg');
+>> figure,imshow(l1);
+>> 
+>> l2=rgb2hsv(l1);
+>> imtool(l2);
+>> 
+>> r = l1(:,:,1);
+>> figure,imshow(r);
+>> 
+>> g = l1(:,:,2);
+>> figure,imshow(g);
+>> 
+>> b = l1(: ,: , 3);
+>> figure,imshow(b);
+>> 
+>> h=l2(:,:,1);
+>> figure,imshow(h);
+>> 
+>> s=l2(:,:,2);
+>> figure,imshow(s);
+>> 
+>> v=l2(:,:,3);
+>> figure,imshow(v);
